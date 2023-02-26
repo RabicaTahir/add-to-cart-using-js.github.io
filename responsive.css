@@ -36,8 +36,8 @@
     }
     
     #mobile a{
-        font-size: 24px;
-        padding-left: 24px;
+        /* font-size: 24px; */
+        padding-left: 0px;
     }
     #close{
         position: absolute;
@@ -126,7 +126,7 @@
     .btn-2{
         position: absolute;
     top: 30%;
-    z-index: -1;
+    z-index: 1;
     border: none;
    background-color: white;
     font-family: inherit;
@@ -158,6 +158,8 @@
     section .shopping-cart.active{
         right: 1.5rem;
       }
-      
+      .row{
+        display: none;
+      }
      
 }

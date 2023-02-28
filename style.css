@@ -20,13 +20,13 @@ h2{
     color: black;
 }
 h3{
-    color: grey;
-    text-decoration: line-through;
+    color: rgb(255, 170, 0);
 }
 
 h4{
     font-size: 15px;
-    color: rgb(255, 170, 0);
+    color: grey;
+  
 
 }
 h6{
@@ -146,10 +146,12 @@ list-style: none;
     margin-right: 10px;   
 }
 
-#small-images{
+/* #small-images{
     border-radius: 10px;
+} */
+.color{
+    color: orange;
 }
-
 #details .single-img-details{
     width: 50%;
     margin-left: 50px;
@@ -188,16 +190,18 @@ list-style: none;
 .price{
     display: flex;
 }
-.price h4{
+.price h3{
     background: rgb(235, 224, 178);
     width: 50px;
     height: 30px;
     padding: 10px;
     border-radius: 5px;
     margin-top: 8px;
-    margin-left: 10px;
+    margin-left: 10px; 
     
-    
+}
+.single-img-details h4{
+    text-decoration-line: line-through;
 }
 .both-buttons{
     display: flex;
@@ -222,7 +226,7 @@ list-style: none;
     margin: -1px;
     }
 
-section .shopping-cart{
+header .shopping-cart{
     width: 20rem;
     position: fixed;
     top: 18%;
@@ -232,7 +236,7 @@ section .shopping-cart{
     box-shadow: 5px -5px 5px 2px rgb(213, 211, 211),
     -5px 5px 5px 2px rgb(213, 211, 211);
 }
-section .shopping-cart.active{
+header .shopping-cart.active{
     right: 3rem;
     transition: .2s linear;
     background: white;

@@ -155,7 +155,7 @@
        display: none;
     }
    
-    section .shopping-cart.active{
+    header .shopping-cart.active{
         right: 1.5rem;
       }
       .row{

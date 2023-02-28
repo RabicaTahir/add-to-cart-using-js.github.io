@@ -21,63 +21,62 @@
       content="E-commerce Product Page main for FrontendMentor.io"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-commerce Product Page main</title>
+    <title>add-to-cart-using-html-css-javascript</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"  />
     <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-    <section id="header">
+    <header id="header">
         <div id="mobile">
-            <a href="#" id="bar"><img src="images/icon-menu.svg" alt="" ></a>
+            <a href="icon-menu.html" id="bar" aria-label="Read more"><img src="images/icon-menu.svg" alt="menu-loading" ></a>
         </div>
         <div class="logo">
             <ul>
                 <li>
-                     <a href=""><img src="images/logo.svg" alt=""></a>
+                     <a href="logo.html" aria-label="Read more about logo"><img src="images/logo.svg" alt="company-logo"></a>
                 </li>
             </ul>
         </div>
         <div>
             <ul id="navbar">  
-                <li><a href="#" id="close"><i  class="fa-solid fa-circle-xmark"></i></a></li>
-                <li><a href="index.html" class="active"></a>Collection</li>
-                <li><a href="#"></a>Men</li>
-                <li><a href="#"></a>Women</li>
-                <li><a href="#"></a>About</li>
-                <li><a href="#"></a>Contact</li>  
+                <li><a href="close.html" id="close" aria-label="Read more about closing page"><i  class="fa-solid fa-circle-xmark"></i></a></li>
+                <li><a href="index.html" class="active" aria-label="Read more about main page"></a>Collection</li>
+                <li><a href="Men.html" aria-label="Read more mens collection"></a>Men</li>
+                <li><a href="Women.html" aria-label="Read more women collection"></a>Women</li>
+                <li><a href="About.html" aria-label="Read more"></a>About</li>
+                <li><a href="Contact.html" aria-label="Read more"></a>Contact</li>  
             </ul>
         </div>
         <div id="carts">
-            <a href="#"><img src="images/icon-cart.svg" alt="" id="cart-btn" class="your-cart" data-item-num="3"></a>
-           <a href="#"><img src="images/image-avatar.png" alt="" class="avatar" ></a>
+           
+              <img src="images/icon-cart.svg" alt="cart-loading" id="cart-btn" class="your-cart" data-item-num="3">
+           <a href="avatar" aria-label="Read more">
+            <img src="images/image-avatar.png" alt="avatar-loading" class="avatar" >
+          </a>
           </div> 
         <div class="shopping-cart cart">
 
             <div>
-                <h2 class="title">Cart</h2>
+                <h1 class="title">Cart</h1>
             </div>
             <div class="box" id="title">
-                <img src="images/image-product-1-thumbnail.jpg" alt="">
+                <img src="images/image-product-1-thumbnail.jpg" alt="product-1-loading">
                 <div class="content-2">
-                    <h4>Fall Limited Edition Sneakers</h4>
+                    <p>Fall Limited Edition Sneakers</p>
                     <div id="cartItems">Loading cart...</div>
                   <div class="content-3">  
-                    <h5 class="p" id="totalPrice">Total Price: 0$</h5>
+                    <p class="p" id="totalPrice">Total Price: 0$</p>
             </div>
         </div>
-        <img src="images/icon-delete.svg" alt="" class="del-icon tiny secondary" style="width: 5%; height: 3%;" id="clear">
+        <img src="images/icon-delete.svg" alt="deleting" class="del-icon tiny secondary" style="width: 5%; height: 3%;" id="clear">
             </div>
             <div >
                 
                 <button class="btn-1 tiny disabled"> Check Out</button>
             </div>
         </div>   
-
-       
-
-
-    </section>
+    </header>
 
    <div class="container">
       <div class="content">   
@@ -98,22 +97,22 @@
       <button class="btn-2 slider__btn--right" onclick="plusDivs(1)">&#10095;</button>
       </div>
     </div>
-    <section id="details">
+    <main id="details">
         <div class="single-img">
           
-            <img src="images/image-product-1.jpg" alt="" width="100%" id="mainimg" class="hover-shadow cursor" onclick="openModal();currentSlide(1)">
+            <img src="images/image-product-1.jpg" alt="loading" width="100%" id="mainimg" class="hover-shadow cursor" onclick="openModal();currentSlide(1)">
             <div class="small-img-group row">
              <div class="small-img column">
-                <img src="images/image-product-1-thumbnail.jpg" alt=""  width="100%" id="small-images" class="hover-shadow cursor"  onclick="openModal();currentSlide(1)">
+                <img src="images/image-product-1-thumbnail.jpg" alt="loading"  width="100%"  class="hover-shadow cursor"  onclick="openModal();currentSlide(1)">
              </div>
              <div class="small-img column">
-                <img src="images/image-product-2-thumbnail.jpg" alt="" width="100%" id="small-images" class="hover-shadow cursor"  onclick="openModal();currentSlide(2)">
+                <img src="images/image-product-2-thumbnail.jpg" alt="loading" width="100%"  class="hover-shadow cursor"  onclick="openModal();currentSlide(2)">
              </div>
              <div class="small-img column">
-                <img src="images/image-product-3-thumbnail.jpg" alt="" width="100%" id="small-images" class="hover-shadow cursor"  onclick="openModal();currentSlide(3)">
+                <img src="images/image-product-3-thumbnail.jpg" alt="loading" width="100%"  class="hover-shadow cursor"  onclick="openModal();currentSlide(3)">
              </div>
              <div class="small-img column">
-                <img src="images/image-product-4-thumbnail.jpg" alt="" width="100%" id="small-images" class="hover-shadow cursor"  onclick="openModal();currentSlide(4)">
+                <img src="images/image-product-4-thumbnail.jpg" alt="loading" width="100%"  class="hover-shadow cursor"  onclick="openModal();currentSlide(4)">
             </div>
          </div>
         </div>
@@ -122,19 +121,19 @@
   <div class="modal-content">
    <div class="mySlides">
       <div class="numbertext">1 / 4</div>
-      <img src="images/image-product-1.jpg" style="width:100%">
+      <img src="images/image-product-1.jpg" style="width:100%" alt="loading">
     </div>
     <div class="mySlides">
       <div class="numbertext">2 / 4</div>
-      <img src="images/image-product-2.jpg" style="width:100%">
+      <img src="images/image-product-2.jpg" style="width:100%" alt="loading">
     </div>
     <div class="mySlides">
       <div class="numbertext">3 / 4</div>
-      <img src="images/image-product-3.jpg" style="width:100%">
+      <img src="images/image-product-3.jpg" style="width:100%" alt="loading">
     </div>
     <div class="mySlides">
       <div class="numbertext">4 / 4</div>
-      <img src="images/image-product-4.jpg" style="width:100%">
+      <img src="images/image-product-4.jpg" style="width:100%" alt="loading">
     </div>
     
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -144,16 +143,16 @@
 
 
     <div class="column">
-      <img class="demo cursor" src="images/image-product-1-thumbnail.jpg" style="width:90%" onclick="currentSlide(1)">
+      <img class="demo cursor" alt="loading" src="images/image-product-1-thumbnail.jpg" style="width:90%" onclick="currentSlide(1)">
     </div>
     <div class="column">
-      <img class="demo cursor" src="images/image-product-2-thumbnail.jpg" style="width:90%" onclick="currentSlide(2)">
+      <img class="demo cursor" alt="loading" src="images/image-product-2-thumbnail.jpg" style="width:90%" onclick="currentSlide(2)">
     </div>
     <div class="column">
-      <img class="demo cursor" src="images/image-product-3-thumbnail.jpg" style="width:90%" onclick="currentSlide(3)">
+      <img class="demo cursor" alt="loading" src="images/image-product-3-thumbnail.jpg" style="width:90%" onclick="currentSlide(3)">
     </div>
     <div class="column">
-      <img class="demo cursor" src="images/image-product-4-thumbnail.jpg" style="width:90%" onclick="currentSlide(4)">
+      <img class="demo cursor" alt="loading" src="images/image-product-4-thumbnail.jpg" style="width:90%" onclick="currentSlide(4)">
     </div>
   </div>
 </div>
@@ -161,17 +160,17 @@
                  
                  
         <div class="single-img-details product" id="product1" data-name="Fall Limited Edition Sneakers" data-price="125" data-id="1">
-            <h4>SNEAKERS COMPANY</h4>
+            <p class="color">SNEAKERS COMPANY</p>
             <h1 class="title">Fall Limited Edition Sneakers</h1>
             <h6>These low-profile sneakers are your perfect casual wear companion.Featuring a deaurable rubber outer sole,they'll withstand everything the weather can offer. </h6>
             <div class="price">
                 <h2 class="now-Price">$125.00</h2>
-                <h4>50%</h4> </div>
-                <h3>250.00$</h3>
+                <h3>50%</h3> </div>
+                <h4>250.00$</h4>
                 <div class="both-buttons">
                 <div class="count">
                     <span class="down" onclick="decreaseCount(event, this)">-</span>
-                    <input type="text" value="1"  class="counting">
+                    <input type="text" value="1"  class="counting" aria-labelledby="just-counting">
                     <span class="up" onclick="increaseCount(event, this)">+</span>
                 </div>
                 
@@ -181,7 +180,7 @@
 
            
         </div>
-    </section>
+    </main>
     <script type="text/template" id="cartT">
       <% _.each(items, function (item) { %> <div class = "panel"> <h3> <%= item.name %> </h3>  <span class="label">
     <%= item.counting %> piece<% if(item.counting > 1)

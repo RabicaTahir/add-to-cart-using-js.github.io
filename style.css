@@ -29,7 +29,7 @@ h4{
   
 
 }
-h6{
+h6, .color-2{
     font-size: 18px;
     font-weight: 400;
     color: grey;
@@ -152,6 +152,7 @@ list-style: none;
 .color{
     color: orange;
 }
+
 #details .single-img-details{
     width: 50%;
     margin-left: 50px;
@@ -167,6 +168,9 @@ list-style: none;
     background: rgb(230, 224, 224);
     border-radius: 5px;
     padding: 10px;
+}
+.count label{
+    display: none;
 }
 .count span{
     display: block;

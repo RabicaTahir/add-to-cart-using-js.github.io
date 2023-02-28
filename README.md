@@ -5,7 +5,7 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
 
 ### ♨ Screenshot
 
-![](./solutionbyrabica.png)
+![](./Solutionbyrabica.png)
 
 
 ### 🔗Links

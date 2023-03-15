@@ -324,6 +324,13 @@ header .shopping-cart.active{
   .mySlides {
     display: none;
   }
+ .mySlides > img{
+    width: 100%;
+  }
+  .demo{
+    width: 100%;
+    border-radius: 20px;
+  }
   
   .cursor {
     cursor: pointer;
